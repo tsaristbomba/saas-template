@@ -1,49 +1,33 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
-import Header from "./header"
-import "./layout.css"
+import Navbar from "./Navbar"
+import GlobalStyles from "./styles/GlobalStyles"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  React.useEffect(() => {
+    Aos.init()
+  }, [])
+
+  // Scroll to top every render
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  //
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Nunito&family=Inter&display=swap');
+      </style>
+      <GlobalStyles />
+      <Navbar />
+      <main>{children}</main>
+      <Footer />
     </>
   )
 }

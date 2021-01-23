@@ -1,0 +1,22 @@
+{
+  "title": "About Us",
+  "subtitle": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic, accusamus laborum consequatur quas exercitationem!",
+  "characteristics": [
+    {
+      "title": "Fast Service Delivery",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "icon": "AiFillThunderbolt"
+    },
+    {
+      "title": "Secured Service",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "icon": "AiFillSafetyCertificate"
+    },
+    {
+      "title": "Revenue Boost",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "icon": "AiFillPayCircle"
+    }
+  ],
+  "image": "../../images/about.svg"
+}

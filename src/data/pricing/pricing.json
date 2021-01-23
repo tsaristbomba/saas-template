@@ -1,0 +1,26 @@
+{
+  "title": "Pricing",
+  "prices": [
+    {
+      "title": "Basic",
+      "price": 200,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, a.",
+      "buttonLabel": "Contact Sales",
+      "bestOffer": false
+    },
+    {
+      "title": "Standard",
+      "price": 450,
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, necessitatibus pariatur?",
+      "buttonLabel": "Contact Sales",
+      "bestOffer": true
+    },
+    {
+      "title": "Premium",
+      "price": 1000,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illum debitis velit.",
+      "buttonLabel": "Contact Sales",
+      "bestOffer": false
+    }
+  ]
+}

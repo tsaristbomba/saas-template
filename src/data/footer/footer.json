@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Contact Info",
+    "items": [
+      "586 Argus Rd, Oakville, ON L6J 3J3, Canada",
+      "1 123-456-789",
+      "contact@normandy.com"
+    ]
+  },
+  {
+    "title": "Menu Links",
+    "items": ["About", "Services", "Pricing"]
+  },
+  {
+    "title": "Follow Us",
+    "items": [
+      "https://facebook.com",
+      "https://twitter.com",
+      "https://instagram.com"
+    ]
+  }
+]

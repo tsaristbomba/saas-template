@@ -1,0 +1,24 @@
+{
+  "title": "What our customers say",
+  "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti saepe vel.",
+  "testimonials": [
+    {
+      "image": "../../images/testimonial-one.jpg",
+      "name": "Anders Smith",
+      "company": "Smith Inc",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti saepe vel."
+    },
+    {
+      "image": "../../images/testimonial-two.jpg",
+      "name": "Dana Petkovic",
+      "company": "Petkovic43",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti saepe vel."
+    },
+    {
+      "image": "../../images/testimonial-three.jpg",
+      "name": "Aaron Johnson",
+      "company": "Arao Inc",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti saepe vel."
+    }
+  ]
+}

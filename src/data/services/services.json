@@ -1,0 +1,25 @@
+{
+  "title": "Our Services",
+  "services": [
+    {
+      "image": "../../images/services-one.svg",
+      "title": "Data Analytics",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum totam eveniet id!"
+    },
+    {
+      "image": "../../images/services-two.svg",
+      "title": "Email Marketing",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum totam eveniet id!"
+    },
+    {
+      "image": "../../images/services-three.svg",
+      "title": "Mobile Apps",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum totam eveniet id!"
+    },
+    {
+      "image": "../../images/services-four.svg",
+      "title": "Web Apps",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum totam eveniet id!"
+    }
+  ]
+}
